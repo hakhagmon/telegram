@@ -1,12 +1,7 @@
 <?php
-if(file_exists('TelegramErrorLogger.php')){
-  require_once 'TelegramErrorLogger.php';
-}
+namespace hakhagmon\Telegram;
 
-/**
- * Telegram Bot Class.
- * @author Gabriele Grillo <gabry.grillo@alice.it>
- */
+
 class Telegram {
 
 	private $bot_id = '';
